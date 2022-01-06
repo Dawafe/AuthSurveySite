@@ -17,7 +17,7 @@ class Login {
         }
       });
       if(error == 0) {
-// - !!! - this is where I need to add an authentication API
+// - !!! - this is where I need to call an authentication API
 // - !!! - the code below is just to allow the form to submit and move on
         localStorage.setItem("auth", 1);
         this.form.submit();
