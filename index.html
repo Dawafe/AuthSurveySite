@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Authentication</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="/js/login.js"></script>
+</head>
+  <body class="login">
+    <div class="container">
+      <h2 class="text-center">PLEASE ENTER THE CORRECT<br>AUTHENTICATION INFORMATION<br>TO PROCEED:</h2>
+      <br>
+      <form action="/survey.html" class="loginForm">
+        <div class="input-group">
+          <label for="username" class="label">Username</label>
+          <input type="text" id="username" class="input">
+          <span class="error-message"></span>
+        </div>
+        <br>
+        <div class="input-group">
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input">
+          <span class="error-message"></span>
+        </div>
+        <br>
+        <button class="button" type="submit">Login</button>
+      </form>
+    </div>
+    <h6>P.S. Try "username" and "password"... but without the quotes.</h6>
+  </body>
+</html>
